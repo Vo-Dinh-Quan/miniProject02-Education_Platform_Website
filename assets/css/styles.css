@@ -363,7 +363,7 @@ a {
     justify-content: space-between;
 }
 
-.popular .course-item .title a{
+.popular .course-item .title a {
     color: #171100;
     font-size: 1.8rem;
     font-style: normal;
@@ -412,3 +412,77 @@ a {
     box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.2);
 }
 
+/* Feedback */
+
+.feedback {
+    margin-top: 13.5rem;
+    padding: 9.6rem 0;
+    background: #2e2100;
+}
+
+.feedback-list {
+    display: flex;
+    overflow: hidden;
+}
+
+.feedback-item {
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.feedback-item .avatar {
+    width: 7.2rem;
+    height: 7.2rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback-item .info .title {
+    font-family: var(--font-heading);
+    color: #f7f7f7;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.4rem; /* 141.667% */
+}
+
+.feedback-item .info .desc {
+    margin-top: 0.4rem;
+    color: #bfbcb2;
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    line-height: 2.6rem; /* 185.714% */
+}
+
+.feedback-item .dots {
+    display: flex;
+    margin-top: 2.8rem;
+}
+
+.feedback-item .dot {
+    margin-right: 0.6rem;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    background: #634700;
+    cursor: pointer;
+}
+
+.feedback-item .dot.active {
+    background: #FFB900;
+    cursor: default;
+}
+.feedback-item .content {
+    width: 66%;
+    margin-left: auto;
+}
+
+.feedback-item blockquote {
+    margin-left: 0.3rem;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 4rem; /* 153.846% */
+}
